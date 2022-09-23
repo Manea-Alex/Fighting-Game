@@ -1,32 +1,36 @@
-
- * {
-            box-sizing: border-box;
-            font-family: 'Press Start 2P', cursive;
-   }
-
-body{
-            background: rgb(224,218,0);
-            background: linear-gradient(90deg, rgba(224,218,0,0.8715861344537815) 0%, rgba(255,21,9,0.6222864145658263) 57%, rgba(229,239,172,1) 100%);
-            text-align: center;
-            /* margin-top:10rem; */
+* {
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
 }
 
-.title{
-            /* margin: 0 auto; */
-            height:7rem;
-            margin-top: 3rem;
-            font-size: 1.5rem;
-            color: #fff;;
+body {
+  background: rgb(224, 218, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 218, 0, 0.8715861344537815) 0%,
+    rgba(255, 21, 9, 0.6222864145658263) 57%,
+    rgba(229, 239, 172, 1) 100%
+  );
+  text-align: center;
+  /* margin-top:10rem; */
 }
-           
-.instructions{
-               font-size: 1.2rem;
-               padding-bottom: 2rem;
-} 
 
-.smaller-text{
-                font-size: 0.9rem;
-                padding-top: 1rem;
+.title {
+  /* margin: 0 auto; */
+  height: 7rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.instructions {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.smaller-text {
+  font-size: 0.9rem;
+  padding-top: 1rem;
 }
 /* .container{
 position: relative; display: inline-block
@@ -98,74 +102,64 @@ padding: 20px;
     left: 0;
     display: none;
 } */
-@media only screen and (min-width: 200px) and (max-width: 500px){
-.title{
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .title {
     display: none;
-
-         
-}
-.inside-container{
+  }
+  .inside-container {
     display: none !important;
-}
-           
-.instructions{
+  }
+
+  .instructions {
     display: none;
+  }
 
-               
-} 
-
-.smaller-text{
+  .smaller-text {
     display: none;
-
-           
-}
-.container{
+  }
+  .container {
     display: none;
+  }
 
-}
-  
- 
-
-
-.player-health{
+  .player-health {
     display: none;
-    
-}
-#player-health{
-
+  }
+  #player-health {
     display: none;
+  }
 
-}
-
-   
-
-.timer{
-    
+  .timer {
     display: none !important;
-    
-}
+  }
 
-.enemy-health{
+  .enemy-health {
     display: none;
- 
-}
+  }
 
-#enemyHealth{
+  #enemyHealth {
     display: none;
-    
-}
+  }
 
-#displayText{ 
+  #displayText {
     display: none !important;
-}
- .rickrolled{
-    display:block !important;
- }
-
- canvas{
-    display: none;
- }
- iframe{
+  }
+  .rickrolled {
     display: block !important;
- }
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+  canvas {
+    display: none;
+  }
+  iframe {
+    display: block !important;
+    height: 18rem;
+    /* width:15rem; */
+    margin: auto;
+    width: 95%;
+    /* border: 3px solid green; */
+    padding: 10px;
+  }
 }
