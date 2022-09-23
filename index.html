@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+       
+    </style>
+</head>
+<body>
+  <!-- <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
+  <!-- <iframe width="949" height="534" src="https://www.youtube.com/embed/a1EYnngNHIA?list=RDMM"
+    title="Coldplay - Viva La Vida (Lyrics)" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe> -->
+    <iframe width="949" height="534" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen style="display:none"></iframe>
+    <div class="title">Fighting Game</div>
+    <!-- red container div -->
+    <div class="rickrolled" style="display: none;">You just got Rick Rolled <br>
+    Next time please open the link using a PC :) as the game is not mobile responsive</div>
+    <div class="box">
+        <div class="instructions">Instructions: <br>
+            <div class="smaller-text">
+                Player 1 is controlled with W, A, D and space for hitting. <br>
+                Player 2 is controlled with the Arrows and you use the down arrow to hit.
+            </div>
+        </div>
+    <div class = 'container' style="position: relative; display: inline-block">
+        <!-- smaller red container div -->
+        <div class="inside-container"
+         style="
+        position: absolute;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+      ">
+            <!-- player health -->
+            <div class="player-health" style="
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          border-top: 4px solid white;
+          border-left: 4px solid white;
+          border-bottom: 4px solid white;
+        ">
+                <div style="background-color: red; height: 30px; width: 100%"></div>
+                <div id="playerHealth" style="
+            position: absolute;
+            background: #818cf8;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+          "></div>
+            </div>
+
+            <!-- timer -->
+            <div class="timer" id="timer" style="
+          background-color: black;
+          width: 100px;
+          height: 50px;
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          border: 4px solid white;
+        ">
+                10
+            </div>
+            <!-- enemy health -->
+            <div class="enemy-health" style="
+          position: relative;
+          width: 100%;
+          border-top: 4px solid white;
+          border-bottom: 4px solid white;
+          border-right: 4px solid white;
+        ">
+                <div style="background-color: red; height: 30px"></div>
+                <div id="enemyHealth" style="
+            position: absolute;
+            background: #818cf8;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          "></div>
+            </div>
+            <div></div>
+        </div>
+        <div id="displayText"
+         style="
+        position: absolute;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+      ">
+            Tie
+        </div>
+        <canvas></canvas>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+        integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+</html>
