@@ -32,76 +32,7 @@ body {
   font-size: 0.9rem;
   padding-top: 1rem;
 }
-/* .container{
-position: relative; display: inline-block
-}
-  
-.inside-container{          
-position: absolute;
-display: flex;
-width: 100%;
-align-items: center;
-padding: 20px;   
-}
 
-.player-health{
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    border-top: 4px solid white;
-    border-left: 4px solid white;
-    border-bottom: 4px solid white;
-}
-#player-health{
-    position: absolute;
-    background: #818cf8;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-#timer{
-    background-color: black;
-    width: 100px;
-    height: 50px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border: 4px solid white;
-}
-
-.enemy-health{
-    position: relative;
-    width: 100%;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
-    border-right: 4px solid white;
-}
-
-#enemyHealth{
-    position: absolute;
-    background: #818cf8;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-#displayText{ 
-    position: absolute;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: none;
-} */
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .title {
     display: none;
@@ -156,10 +87,8 @@ padding: 20px;
   iframe {
     display: block !important;
     height: 18rem;
-    /* width:15rem; */
     margin: auto;
-    width: 30%;
-    /* border: 3px solid green; */
+    width: 100vw;
     padding: 10px;
   }
 }
